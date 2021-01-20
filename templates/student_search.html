@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tracker</title>
+</head>
+<body>
+    <form action="/student">
+    <label>Enter GitHub username
+        <input type="text" name="github">
+    </label>
+    <input type="submit" value="Display Student">
+    </form>
+
+    <h2>Add a new student:</h2>
+    <form action="/add_student" method='POST'>
+    <label>Enter new student's First Name
+        <input type="text" name="first_name">
+    </label>
+    <label>Enter new student's Last Name
+        <input type="text" name="last_name">
+    </label>
+    <label>Enter new student's Github username
+        <input type="text" name="github">
+    </label>
+    <input type="submit" value="Add New Student">
+        </form>
+</body>
+</html>
